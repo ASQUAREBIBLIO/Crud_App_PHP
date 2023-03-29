@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+header{
+    height: 80px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    box-shadow: 0 1px 4px #ddd;
+}
+.topnav a {
+    float: left;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.logo, .topnav a.logo:hover{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.topnav a:hover {
+    color: cornflowerblue;
+}
+.topnav-right {
+  float: right;
+}
+.sec{
+    justify-content: center;
+}
+#login_index{
+    background-color: rgba(153, 184, 241, 0.61);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.login{
+    padding: 150px;
+    font-size: 17px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.login h1, .login p{
+    text-align: center;
+}
+.login form{
+    padding: 20px;
+    text-align: left;
+}
+.login form article{
+    text-align: left;
+    width: 320px;
+    display: flex;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 2px solid cornflowerblue;
+    background-color: #fff;
+}
+.login form article img{
+    width: 40px;
+    padding: 7px 0;
+    background-color: cornflowerblue;
+}
+.login form article input{
+    width: 280px;
+    border: none;
+    padding: 0 0 0 7px;
+    color: black;
+}
+.login form article button{
+    border: none;
+    width: 100%;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+}
+#identifmg, #keymg{
+    color: black;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.login #error{
+    color: red;
+    font-size: 13px;
+}
+.login a{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.login a:hover{
+    color: cornflowerblue;
+    transition: .5s;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    justify-content: center;
+}
+.add{
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.add h1{
+    text-align: center;
+}
+.add form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.add form article{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 2px solid cornflowerblue;
+    background-color: #fff;
+}
+.add form article input{
+    border: none;
+    padding: 0 0 0 7px;
+    color: black;
+}
+.add form article button{
+    border: none;
+    width: 100%;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    text-align: center;
+}

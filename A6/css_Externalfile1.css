@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+header{
+    text-align: right;
+    padding: 25px;
+}
+.logout{
+    color: cornflowerblue;
+    font-size: 17px;
+    text-decoration: none;
+}
+.login{
+    padding:30px 50px;
+    font-size: 17px;
+    text-align: center;
+    color: #FFF;
+}
+.login form{
+	justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.login form article{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 340px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+}
+.login form article img{
+    width: 40px;
+    padding: 7px;
+    background-color: #ddd;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+}
+.login form article input{
+    padding: 0 0 0 10px;
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 1px;
+}
+.login form article button{
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    background-color: #ddd;
+    width: 340px;
+}
+.login form .recov{
+    border: none;
+}
+.login form span.message{
+    color: red;
+    font-size: 14px;
+}
+article.recov a, article.recov a:hover{
+    color: #FFF;
+    text-decoration: underline;
+    padding: 10px 0;
+    line-height: 0;
+}
+p.err{
+	color: red;
+	font-size: 14px;
+}
+section.index_sect{
+    margin: 16px;
+    padding: 150px 0;
+    text-align: center;
+    align-self: center;
+}
+section h1{
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+}
+section p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.topnav a.logout {
+    color: #0155f1;
+}
+.publish_form{
+	font-size: 17px;
+	padding: 30px;
+    text-align: center;
+}
+.publish_form h1{
+    font-size: 27px;
+}
+.publish_form form{
+    padding: 10px;
+	display: grid;
+	grid-gap: 5px;
+	justify-content: center;
+}
+.publish_form form article{
+    display: inline-flex;
+	text-align: left;
+	transition: transform .3s;
+    border: cornflowerblue 1px solid;
+}
+span{
+    text-align: left;
+}
+.publish_form article input{
+	width: 500px;
+    padding: 10px;
+	border: none;
+}
+.publish_form .btn{
+    border: none;
+    text-align: center;
+}
+.publish_form article.btn div{
+    display: inline-flex;
+    text-align: center;
+    grid-gap: 10px;
+}
+.btn button{
+    width: 150px;
+    padding: 10px;
+	font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+.Ann{
+    background-color: #FFF;
+    border: cornflowerblue 1px solid;
+    color: #000;
+}
+.val{
+    background-color: cornflowerblue;
+    border: none;
+}
+.header{
+    text-align: center;
+}
+.publish_form a.add{
+    margin: 0px;
+    padding: 5px;
+	font-weight: bold;
+    background-color:  cornflowerblue;
+    color: #FFF;
+    text-decoration: none;
+}
+#identifmg, #keymg{
+    color: black;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+#error{
+    color: red;
+    font-size: 13px;
+}
+.result{
+    display: grid;
+    justify-content: center;
+}
+table{
+    width: 850px;
+    border: none;
+    margin: 20px 0;
+}
+tr.head{
+    background-color: cornflowerblue;
+}
+table tr{
+    box-shadow: 0 1px 0 cornflowerblue;
+}
+td, th{
+    border: none;
+    padding: 10px;
+}
+table td.action{
+    border: none;
+}
